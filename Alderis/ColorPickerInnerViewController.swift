@@ -14,6 +14,7 @@ internal extension ColorPickerTab {
 		case .swatch:		return ColorPickerSwatchViewController.self
 		case .map:			return ColorPickerMapViewController.self
 		case .sliders:	return ColorPickerSlidersViewController.self
+		case .system: return ColorPickerSystemViewController.self
 		case .accessibility: return ColorPickerAccessibilityViewController.self
 		}
 	}

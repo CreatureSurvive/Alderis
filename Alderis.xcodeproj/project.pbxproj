@@ -20,6 +20,8 @@
 		56C74667242F722A003ED00A /* ColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C74666242F722A003ED00A /* ColorPickerSlider.swift */; };
 		56C74669242F75E3003ED00A /* ColorPickerNumericSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C74668242F75E3003ED00A /* ColorPickerNumericSlider.swift */; };
 		94A2368C252B5951002B5D0B /* UIColorAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A2368B252B5951002B5D0B /* UIColorAdditions.swift */; };
+		B8AE93F92D35FE48000A473E /* ColorPickerSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE93F82D35FE48000A473E /* ColorPickerSystemViewController.swift */; };
+		B8FB2DAC2D389B6D00E1FA28 /* ColorPickerColorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FB2DAB2D389B6D00E1FA28 /* ColorPickerColorGroup.swift */; };
 		CF73D33A241F9C23000B1B10 /* Alderis.h in Headers */ = {isa = PBXBuildFile; fileRef = CF73D338241F9C23000B1B10 /* Alderis.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF73D344241F9C31000B1B10 /* ColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF73D32D241E49EE000B1B10 /* ColorWell.swift */; };
 		CF73D345241F9C31000B1B10 /* ColorPickerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE70280241CBDE700083903 /* ColorPickerMapViewController.swift */; };
@@ -53,6 +55,8 @@
 		56C74666242F722A003ED00A /* ColorPickerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSlider.swift; sourceTree = "<group>"; };
 		56C74668242F75E3003ED00A /* ColorPickerNumericSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerNumericSlider.swift; sourceTree = "<group>"; };
 		94A2368B252B5951002B5D0B /* UIColorAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorAdditions.swift; sourceTree = "<group>"; };
+		B8AE93F82D35FE48000A473E /* ColorPickerSystemViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ColorPickerSystemViewController.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; wrapsLines = 0; };
+		B8FB2DAB2D389B6D00E1FA28 /* ColorPickerColorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerColorGroup.swift; sourceTree = "<group>"; };
 		CF73D32B241E4720000B1B10 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		CF73D32D241E49EE000B1B10 /* ColorWell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWell.swift; sourceTree = "<group>"; };
 		CF73D336241F9C23000B1B10 /* Alderis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alderis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +117,7 @@
 				CF79DA30251723C500F17BCB /* BottomSheetTransition.swift */,
 				CF73D32B241E4720000B1B10 /* Color.swift */,
 				CFE70273241A4C5500083903 /* ColorPickerViewController.swift */,
+				B8FB2DAB2D389B6D00E1FA28 /* ColorPickerColorGroup.swift */,
 				CF7750CE252433680069CC57 /* ColorPickerConfiguration.swift */,
 				CF73D350241F9FB3000B1B10 /* ColorPickerDelegate.swift */,
 				CFE7027B241A62ED00083903 /* ColorPickerInnerViewController.swift */,
@@ -123,6 +128,7 @@
 				CFE70280241CBDE700083903 /* ColorPickerMapViewController.swift */,
 				CFE70288241D0E7300083903 /* ColorPickerWheelView.swift */,
 				CFE70282241CC88D00083903 /* ColorPickerSlidersViewController.swift */,
+				B8AE93F82D35FE48000A473E /* ColorPickerSystemViewController.swift */,
 				56C74668242F75E3003ED00A /* ColorPickerNumericSlider.swift */,
 				4E1C74162826C1F100227EC3 /* ColorPickerAccessibilityViewController.swift */,
 				4E1C741A2827829E00227EC3 /* AccessibilityComplianceLabel.swift */,
@@ -258,6 +264,7 @@
 				CF7750B72520D3B50069CC57 /* Assets.swift in Sources */,
 				CF73D348241F9C31000B1B10 /* ColorPickerInnerViewController.swift in Sources */,
 				56C74667242F722A003ED00A /* ColorPickerSlider.swift in Sources */,
+				B8AE93F92D35FE48000A473E /* ColorPickerSystemViewController.swift in Sources */,
 				4E1C74212827B8F800227EC3 /* NSBeep.swift in Sources */,
 				4E1C74172826C1F100227EC3 /* ColorPickerAccessibilityViewController.swift in Sources */,
 				4E1C741D2827882600227EC3 /* AccessibilityContrastSelector.swift in Sources */,
@@ -272,6 +279,7 @@
 				CF73D351241F9FB3000B1B10 /* ColorPickerDelegate.swift in Sources */,
 				CF73D346241F9C31000B1B10 /* ColorPickerSlidersViewController.swift in Sources */,
 				4E1C741B2827829E00227EC3 /* AccessibilityComplianceLabel.swift in Sources */,
+				B8FB2DAC2D389B6D00E1FA28 /* ColorPickerColorGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

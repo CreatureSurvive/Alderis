@@ -24,9 +24,13 @@ public enum ColorPickerTab: Int, CaseIterable {
 	/// using a CSS-style hexadecimal string, and adjust alpha transparency.
 	case sliders = 2
 
-	/// Tab 4: A tab that allows the user to test various configurations of the color, and its
+	/// Tab 5: A tab that allows selecting from a list of system colors. The user can
+	/// additionally adjust the transparency of the colour using a slider.
+	case system = 5
+
+	/// Tab 5: A tab that allows the user to test various configurations of the color, and its
 	/// conformance to WCAG color contrast.
-	case accessibility = 3
+	case accessibility = 4
 }
 
 /// ColorPickerConfiguration is used to configure an instance of `ColorPickerViewController`.
